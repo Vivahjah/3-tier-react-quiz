@@ -6,7 +6,9 @@ const Question = require("./Question"); // Adjust the path as necessary to your 
 const { data } = require("./data"); // Adjust the path to where your data.js file is located
 
 const mongoURI = process.env.MONGO_URI;
-// const mongoURI = 'mongodb+srv://${username}:${password}@cluster0.3x0s7hh.mongodb.net/?appName=mongosh+2.1.5';
+// const mongoURI = 'mongodb+srv://{db_name}:{db_password}@cluster0.cunperi.mongodb.net/?appName=Cluster0';
+// vivahjah_db_user
+// 4YL7ekEyEVnjWhz3
 
 mongoose
   .connect(mongoURI)
